@@ -1,0 +1,2360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Foto/humanoid.png</normaloff>Foto/humanoid.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="FotoTampakDepan">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>20</y>
+      <width>271</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Foto/front.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FotoTampakKiri">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>20</y>
+      <width>201</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Foto/left.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FotoTampakKanan">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>211</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Foto/right.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="LAnkleRoll">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>440</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>18.LAnkleRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_18">
+     <item>
+      <widget class="QDoubleSpinBox" name="LAnkleRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LAnkleRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_23">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>0</y>
+      <width>401</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Control</string>
+    </property>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>200</y>
+       <width>261</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>259</width>
+        <height>109</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>381</width>
+       <height>361</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_21">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>110</y>
+       <width>101</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Timing</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="TextTime">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Time</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="ExecTime">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
+        <property name="singleStep">
+         <double>0.100000000000000</double>
+        </property>
+        <property name="value">
+         <double>5.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_22">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>File</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="loadButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>131</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>State</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="removeButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Remove</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="renameButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rename</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="addButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="addSameCheckBox">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>same as previous</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_24">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>131</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Run</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="playMotionButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Play Motion</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="playStateButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Play State</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="standUpButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Stand Up</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stanceButton">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Stance</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>111</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Mode</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="MoveMode">
+        <property name="text">
+         <string>Select Mode</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="freeMoveRadioButton">
+        <property name="text">
+         <string>Free Move</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="motionRadioButton">
+        <property name="text">
+         <string>Motion</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="LHipRoll">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>270</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>10.LHipRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_22">
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LElbowYaw">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>6. LElbowYaw</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_23">
+     <item>
+      <widget class="QDoubleSpinBox" name="LElbowYawAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LElbowYawStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LShoulderPitch">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>100</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>2.LShoulderPitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_24">
+     <item>
+      <widget class="QDoubleSpinBox" name="LShoulderPitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LShoulderPitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="HeadPitch">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>20. HeadPitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_25">
+     <item>
+      <widget class="QDoubleSpinBox" name="HeadPitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="HeadPitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="HeadRoll">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>19. HeadYaw</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_26">
+     <item>
+      <widget class="QDoubleSpinBox" name="HeadYawAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="HeadYawStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LShoulderRoll">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>100</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>4. LShoulderRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_27">
+     <item>
+      <widget class="QDoubleSpinBox" name="LShoulderRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LShoulderRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RShoulderRoll">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>3. RShoulderRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_28">
+     <item>
+      <widget class="QDoubleSpinBox" name="RShoulderRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RShoulderRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LHipYaw">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>190</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>  8. LHipYaw</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_29">
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipYawAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipYawStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LHipPitch">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>270</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>12.LHipPitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_30">
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipPitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LHipPitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LKneePitch">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>340</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>14.LKneePitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_31">
+     <item>
+      <widget class="QDoubleSpinBox" name="LKneePitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LKneePitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="LAnklePitch">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>410</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>16.LAnklePitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_32">
+     <item>
+      <widget class="QDoubleSpinBox" name="LAnklePitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="LAnklePitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RHipYaw">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>190</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>7.RHipYaw</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_33">
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipYawAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipYawStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RHipPitch">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>260</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>11.RHipPitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_34">
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipPitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipPitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RKneePitch">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>13.RKneePitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_35">
+     <item>
+      <widget class="QDoubleSpinBox" name="RKneePitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RKneePitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RAnklePitch">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>410</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>15.RAnklePitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_36">
+     <item>
+      <widget class="QDoubleSpinBox" name="RAnklePitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RAnklePitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RShoulderPitch">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>1.RShoulderPitch</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_37">
+     <item>
+      <widget class="QDoubleSpinBox" name="RShoulderPitchAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RShoulderPitchStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RElbowRoll">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>190</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>5.RElbowYaw</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_38">
+     <item>
+      <widget class="QDoubleSpinBox" name="RElbowYawAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RElbowYawStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RHipRoll">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>9.RHipRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_39">
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>99.989999999999995</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RHipRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="RAnkleRoll">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>17.RAnkleRoll</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_40">
+     <item>
+      <widget class="QDoubleSpinBox" name="RAnkleRollAngle">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="minimum">
+        <double>-360.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>360.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>180.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="RAnkleRollStiffness">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="TextRightView">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>540</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Right View</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TextFrontView">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>540</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Front View</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TextLeftView">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>540</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Left View</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FotoBarelangFC">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Foto/StikerBarelang.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="TerminalOutput">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>941</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1368</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVision">
+    <property name="title">
+     <string>Vision</string>
+    </property>
+    <addaction name="actionCamera"/>
+    <addaction name="actionYolo"/>
+    <addaction name="actionGet_Data"/>
+   </widget>
+   <widget class="QMenu" name="menuLocalization">
+    <property name="title">
+     <string>Localization </string>
+    </property>
+    <addaction name="actionMonitor"/>
+   </widget>
+   <widget class="QMenu" name="menuTunning">
+    <property name="title">
+     <string>Tunning</string>
+    </property>
+    <widget class="QMenu" name="menuMotion">
+     <property name="title">
+      <string>Motion</string>
+     </property>
+     <addaction name="actionKick"/>
+     <addaction name="actionStand_Up"/>
+     <addaction name="actionBlock"/>
+    </widget>
+    <addaction name="actionJalan_2"/>
+    <addaction name="menuMotion"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionServo_Connection_Checker"/>
+    <addaction name="actionZero_Offset"/>
+   </widget>
+   <widget class="QMenu" name="menuSensor">
+    <property name="title">
+     <string>Sensor </string>
+    </property>
+    <addaction name="actionIMU"/>
+    <addaction name="actionOLED"/>
+   </widget>
+   <widget class="QMenu" name="menuCommunication">
+    <property name="title">
+     <string>Communication </string>
+    </property>
+   </widget>
+   <addaction name="menuTunning"/>
+   <addaction name="menuVision"/>
+   <addaction name="menuLocalization"/>
+   <addaction name="menuSensor"/>
+   <addaction name="menuCommunication"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionTendang">
+   <property name="text">
+    <string>Tendang</string>
+   </property>
+  </action>
+  <action name="actionJalan">
+   <property name="text">
+    <string>Jalan</string>
+   </property>
+  </action>
+  <action name="actionCamera">
+   <property name="text">
+    <string>Camera</string>
+   </property>
+  </action>
+  <action name="actionMonitor">
+   <property name="text">
+    <string>Monitor</string>
+   </property>
+  </action>
+  <action name="actionJalan_2">
+   <property name="text">
+    <string>Walk</string>
+   </property>
+  </action>
+  <action name="actionServo_Connection_Checker">
+   <property name="text">
+    <string>Servo Connection Checker</string>
+   </property>
+  </action>
+  <action name="actionIMU">
+   <property name="text">
+    <string>IMU</string>
+   </property>
+  </action>
+  <action name="actionOLED">
+   <property name="text">
+    <string>OLED</string>
+   </property>
+  </action>
+  <action name="actionYolo">
+   <property name="text">
+    <string>Yolo</string>
+   </property>
+  </action>
+  <action name="actionGet_Data">
+   <property name="text">
+    <string>Get Data</string>
+   </property>
+  </action>
+  <action name="actionKick">
+   <property name="text">
+    <string>Kick</string>
+   </property>
+  </action>
+  <action name="actionStand_Up">
+   <property name="text">
+    <string>Stand Up</string>
+   </property>
+  </action>
+  <action name="actionBlock">
+   <property name="text">
+    <string>Block</string>
+   </property>
+  </action>
+  <action name="actionZero_Offset">
+   <property name="text">
+    <string>Zero Offset</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

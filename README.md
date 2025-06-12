@@ -1,4 +1,4 @@
-# Motion-Maker
+# Barelang FC - Interactive Motion Tuner
 This is a qt5 based application created by [BarelangFC](https://github.com/BarelangFC) member which is used to make a motion using lua for humanoid robot
 
 ## Feature
